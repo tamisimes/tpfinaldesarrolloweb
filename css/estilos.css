@@ -1,15 +1,15 @@
 @charset "UTF-8";
 @font-face {
   font-family: Corn;
-  src: url(/fuentes/Super\ Corn.ttf);
+  src: url(../fuentes/Super\ Corn.ttf);
 }
 @font-face {
   font-family: Love;
-  src: url(/fuentes/Love\ Nature.otf);
+  src: url(../fuentes/Love\ Nature.otf);
 }
 @font-face {
   font-family: Vigallse;
-  src: url(/fuentes/Vigallse\ -\ Vintage\ Modern\ Serif\ Typeface.ttf);
+  src: url(../fuentes/Vigallse\ -\ Vintage\ Modern\ Serif\ Typeface.ttf);
 }
 * {
   padding: 0;
@@ -45,7 +45,7 @@ nav {
 }
 
 .item1 {
-  background-image: url(/imagenes/Tami-inicio.jpg);
+  background-image: url(../imagenes/Tami-inicio.jpg);
   background-size: cover;
   box-sizing: content-box;
 }
