@@ -8,14 +8,14 @@ $beige: #a47f1a;
 
     font-family: Corn;
     
-    src: url(/fuentes/Super\ Corn.ttf)
+    src: url(../fuentes/Super\ Corn.ttf)
     
     }
 @font-face {
 
         font-family: Love;
         
-        src: url(/fuentes/Love\ Nature.otf)
+        src: url(../fuentes/Love\ Nature.otf)
         
         }
     
@@ -24,7 +24,7 @@ $beige: #a47f1a;
 
         font-family: Vigallse;
         
-        src: url(/fuentes/Vigallse\ -\ Vintage\ Modern\ Serif\ Typeface.ttf)
+        src: url(../fuentes/Vigallse\ -\ Vintage\ Modern\ Serif\ Typeface.ttf)
         
         }
 
@@ -62,7 +62,7 @@ nav {
 }
 
 .item1 {
-    background-image: url(/imagenes/Tami-inicio.jpg);
+    background-image: url(../imagenes/Tami-inicio.jpg);
     background-size: cover;
     box-sizing: content-box;
 
