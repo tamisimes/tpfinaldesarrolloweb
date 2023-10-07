@@ -1,0 +1,304 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Corn;
+  src: url(../fuentes/Super\ Corn.ttf);
+}
+@font-face {
+  font-family: Love;
+  src: url(../fuentes/Love\ Nature.otf);
+}
+@font-face {
+  font-family: Vigallse;
+  src: url(../fuentes/Vigallse\ -\ Vintage\ Modern\ Serif\ Typeface.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  height: 100px;
+  background-color: #dcd1b4;
+  font-family: "Courier New", Courier, monospace;
+  font-style: bold font;
+  text-shadow: 1px 1px 10px white;
+  font-size: 20px;
+}
+
+.navbar-nav {
+  border: solid #3f0632 1px;
+  border-radius: 1px;
+  background-color: #dcd1b4;
+  text-decoration: underline;
+}
+
+#collapsibleNavbar a:hover {
+  color: #3f0632;
+}
+
+.presentacion {
+  height: 700px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 500px);
+}
+
+.item1 {
+  background-image: url(../imagenes/Tami-inicio.jpg);
+  background-size: cover;
+  box-sizing: content-box;
+}
+
+.item2 {
+  text-align: center;
+}
+
+h1 {
+  color: #3f0632;
+  margin-top: 60px;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 10px;
+}
+
+h2 {
+  color: #dcd1b4;
+  margin-top: 50px;
+  animation-duration: 2s;
+  animation-name: aparecer;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.item2 p {
+  color: #a47f1a;
+  font-size: 30px;
+  margin-top: 60px;
+  box-sizing: content-box;
+}
+
+footer {
+  background-color: #dcd1b4;
+  height: 200px;
+  text-align: center;
+  margin-top: -200px;
+}
+
+footer h3 {
+  color: #3f0632;
+  font-size: 45px;
+  padding: 45px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+footer h3 span {
+  text-decoration: line-through;
+}
+
+.logo {
+  font-size: 15px;
+  color: #3f0632;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2 span {
+  text-decoration: underline;
+  color: #dcd1b4;
+  font-family: love;
+  letter-spacing: 2px;
+}
+
+.whatsapp, .instagram {
+  color: #3f0632;
+}
+
+.logos-redes {
+  margin-top: -40px;
+}
+
+.whatsapp:hover {
+  color: #a47f1a;
+}
+
+.instagram:hover {
+  color: #a47f1a;
+}
+
+/* Móvil pequeño */
+@media only screen and (max-width: 550px) and (min-width: 300px) {
+  header {
+    background-color: #dcd1b4;
+    margin: 100;
+    height: 200px;
+  }
+  h1 {
+    font-size: 25px;
+    margin-top: 40px;
+    animation-duration: 1s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+  }
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .presentacion {
+    height: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 300px);
+    justify-content: center;
+  }
+  footer {
+    background-color: #dcd1b4;
+    height: 260px;
+    text-align: center;
+    margin-top: -200px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .item2 p {
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  footer h3 {
+    color: #3f0632;
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  .logos-redes {
+    margin-top: 10px;
+  }
+}
+/* Medida 2 */
+@media only screen and (max-width: 643px) and (min-width: 550px) {
+  .item2 p {
+    font-size: 15px;
+    margin-top: 25px;
+  }
+  .logos-redes {
+    margin-top: -20px;
+  }
+  footer {
+    height: 250px;
+  }
+  .item1 {
+    background-position: center;
+  }
+}
+@media only screen and (max-width: 950px) and (min-width: 643px) {
+  .item2 p {
+    font-size: 20px;
+    margin-top: 60px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 1100px) and (min-width: 950px) {
+  .item2 p {
+    font-size: 25px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+}
+#contenedor-superior {
+  padding: 1%;
+  border: solid #3f0632 40px;
+}
+
+.fondo-aboutme {
+  height: 150px;
+  margin-top: 20px;
+}
+
+.about-me-h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 400%;
+  text-align: center;
+}
+
+.about-me {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: -150px;
+  text-align: center;
+}
+
+.about-me p {
+  font-size: 170%;
+  color: #3f0632;
+  margin-top: 50px;
+}
+
+.contenedor-formulario {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.d-flex {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.contacto-h2 {
+  font-size: 100px;
+  color: #3f0632;
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  object-fit: cover;
+  margin-top: 10px;
+  background-color: #dcd1b4;
+  padding: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 550px) and (min-width: 360px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: repeat(2fr, 1fr);
+  }
+}
+.experiences {
+  font-family: "Courier New", Courier, monospace;
+  color: #3f0632;
+  text-align: center;
+  padding: 10px;
+  font-size: 120%;
+}
+
+.accordion {
+  background-color: #3f0632;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/*# sourceMappingURL=estilos.css.map */
