@@ -3,6 +3,11 @@ $rosa: #3f0632;
 $marronclarito: #dcd1b4;
 $beige: #a47f1a;
 
+@mixin fuente-descripcion {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
 
 @font-face {
 
@@ -36,10 +41,9 @@ $beige: #a47f1a;
 nav {
     height: 100px;
     background-color: $marronclarito;
-    font-family: 'Courier New', Courier, monospace;
     font-style: bold font;
     text-shadow: 1px 1px 10px white;
-    font-size: 20px;
+    @include fuente-descripcion()
 }
 .navbar-nav {
     background-color: $marronclarito;
@@ -123,11 +127,7 @@ footer h3 span {
     text-decoration: line-through;
  }
 
-.logo {
-    font-size: 15px;
-    color:$rosa;
-    font-family: 'Courier New', Courier, monospace;
-}
+
 
 h2 span {
     text-decoration:underline;
@@ -185,7 +185,7 @@ h2 span {
         text-align: center;
     }
      h2 {
-        font-size: 20px;
+        @include fuente-descripcion();
         margin-top: 30px;
      }
      .item2 p {
@@ -281,9 +281,10 @@ h2 span {
 
 @media only screen and (max-width: 950px) and (min-width: 643px) {
    .item2 p{
-    font-size: 20px;
+    @include fuente-descripcion()
     margin-top: 60px;
    }
+
    h2 {
     font-size: 30px; ;
    }
@@ -443,7 +444,7 @@ h2 span {
 
 
 .card-body {
-    font-size: 20px;
+    @include fuente-descripcion();
     text-align: center;
 }
 
@@ -454,10 +455,9 @@ h2 span {
 }
 
 .descripcion-studies {
-    font-family: 'Courier New', Courier, monospace;
+    @include fuente-descripcion();
     text-align: center;
     margin-top: 20px;
-    font-size: 20px;
 }
 
 
