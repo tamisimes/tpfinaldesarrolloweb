@@ -191,6 +191,10 @@ h2 span {
     font-size: 20px;
     letter-spacing: 10px;
   }
+  .studios {
+    text-align: center;
+    font-size: 40px;
+  }
 }
 /* Medida 2 */
 @media only screen and (max-width: 643px) and (min-width: 550px) {
@@ -222,6 +226,10 @@ h2 span {
     color: #3f0632;
     text-align: center;
   }
+  .studios {
+    text-align: center;
+    font-size: 100px;
+  }
 }
 @media only screen and (max-width: 950px) and (min-width: 643px) {
   .item2 p {
@@ -246,6 +254,10 @@ h2 span {
     color: #3f0632;
     text-align: center;
   }
+  .studios {
+    text-align: center;
+    font-size: 100px;
+  }
 }
 @media only screen and (max-width: 2000px) and (min-width: 950px) {
   .item2 p {
@@ -268,6 +280,10 @@ h2 span {
     font-size: 100px;
     color: #3f0632;
     text-align: center;
+  }
+  .studios {
+    text-align: center;
+    font-size: 100px;
   }
 }
 #contenedor-superior {
@@ -340,8 +356,10 @@ h2 span {
 }
 
 .accordion {
+  margin-top: 40px;
   background-color: #3f0632;
   font-family: "Courier New", Courier, monospace;
+  text-align: center;
 }
 
 #cartas-fotos {
@@ -371,6 +389,20 @@ h2 span {
 .descripcion-aboutme {
   color: #3f0632;
   padding-top: 80px;
+}
+
+.descripcion-studies {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#boton-studies {
+  color: #3f0632;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid #a47f1a;
+  letter-spacing: 2px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
