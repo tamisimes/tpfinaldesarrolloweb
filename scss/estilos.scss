@@ -220,6 +220,15 @@ h2 span {
     color: $rosa;
     margin-top: 50px;
 }
+.gallery {
+    display: grid;
+    grid-template-rows: repeat(1, 3fr);
+    grid-gap: 10px;
+    object-fit:cover;
+    margin-top: 10px;
+    background-color:$marronclarito;
+    padding: 10px;
+}
 }
 
 /* Medida 2 */
@@ -259,6 +268,15 @@ h2 span {
     .mensaje-celular {
         font-size: 0px;
     }
+    .gallery {
+        display: grid;
+        grid-template-rows: repeat(1, 3fr);
+        grid-gap: 10px;
+        object-fit:cover;
+        margin-top: 10px;
+        background-color:$marronclarito;
+        padding: 10px;
+    }
 }
 
 @media only screen and (max-width: 950px) and (min-width: 643px) {
@@ -291,6 +309,15 @@ h2 span {
 .mensaje-celular {
     font-size: 0px;
 }
+.gallery {
+    display: grid;
+    grid-template-rows: repeat(1, 3fr);
+    grid-gap: 10px;
+    object-fit:cover;
+    margin-top: 10px;
+    background-color:$marronclarito;
+    padding: 10px;
+}
 }
    @media only screen and (max-width: 2000px) and (min-width: 950px) {
     .item2 p{
@@ -320,6 +347,15 @@ h2 span {
     }
     .mensaje-celular {
         font-size: 0px;
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        object-fit:cover;
+        margin-top: 10px;
+        background-color:$marronclarito;
+        padding: 10px;
     }
 }
 
@@ -358,17 +394,6 @@ h2 span {
     font-family: 'Courier New', Courier, monospace;
 }
 
-
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-gap: 10px;
-    object-fit:cover;
-    margin-top: 10px;
-    background-color:$marronclarito;
-    padding: 10px;
-}
 
 .gallery img {
     width: 100%;
