@@ -132,7 +132,7 @@ h2 span {
 }
 
 /* Móvil pequeño */
-@media only screen and (max-width: 550px) and (min-width: 300px) {
+@media only screen and (max-width: 550px) and (min-width: 360px) {
   header {
     background-color: #dcd1b4;
     margin: 100;
@@ -141,17 +141,6 @@ h2 span {
   h1 {
     font-size: 25px;
     margin-top: 40px;
-    animation-duration: 1s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
-  }
-  @keyframes aparecer {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
   }
   .presentacion {
     height: 700px;
@@ -176,7 +165,7 @@ h2 span {
     margin-top: 40px;
   }
   footer h3 {
-    color: #3f0632;
+    color: #b05574;
     font-size: 30px;
     margin-top: 100px;
   }
@@ -294,10 +283,6 @@ h2 span {
 
 .accordion {
   background-color: #3f0632;
-  font-family: "Courier New", Courier, monospace;
-}
-
-.container {
   font-family: "Courier New", Courier, monospace;
 }
 
