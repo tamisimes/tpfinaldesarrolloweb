@@ -26,10 +26,11 @@ nav {
 }
 
 .navbar-nav {
-  border: solid #3f0632 1px;
-  border-radius: 1px;
   background-color: #dcd1b4;
-  text-decoration: underline;
+  font-style: oblique;
+  word-spacing: 1pt;
+  line-height: 18pt;
+  text-indent: 20pt;
 }
 
 #collapsibleNavbar a:hover {
@@ -48,6 +49,7 @@ nav {
   background-image: url(../imagenes/Tami-inicio.jpg);
   background-size: cover;
   box-sizing: content-box;
+  display: inline-block;
 }
 
 .item2 {
@@ -60,6 +62,8 @@ h1 {
   font-size: 50px;
   font-family: "Courier New", Courier, monospace;
   letter-spacing: 10px;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 h2 {
@@ -132,7 +136,7 @@ h2 span {
 }
 
 /* Móvil pequeño */
-@media only screen and (max-width: 550px) and (min-width: 360px) {
+@media only screen and (max-width: 550px) and (min-width: 300px) {
   header {
     background-color: #dcd1b4;
     margin: 100;
@@ -165,7 +169,7 @@ h2 span {
     margin-top: 40px;
   }
   footer h3 {
-    color: #b05574;
+    color: #3f0632;
     font-size: 30px;
     margin-top: 100px;
   }
@@ -284,6 +288,16 @@ h2 span {
 .accordion {
   background-color: #3f0632;
   font-family: "Courier New", Courier, monospace;
+}
+
+#cartas-fotos {
+  color: #3f0632;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 20px;
+}
+
+#bg-color {
+  z-index: 1000;
 }
 
 /*# sourceMappingURL=estilos.css.map */
