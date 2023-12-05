@@ -441,11 +441,70 @@ h2 span {
   letter-spacing: 2px;
 }
 
-.contenedor-formulario {
-  background: linear-gradient(to right, #dcd1b4, rgba(167, 127, 93, 0.589));
-  width: 100%;
-  height: 700px;
-  margin-top: -50px;
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
+#form-container {
+  max-width: 400px;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+  color:#3f0632;
+  text-align: center;
+  font-size: 320%;
+}
+
+label {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  color:#3f0632; 
+  font-size: 120%;
+
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #333; 
+  outline: none;
+}
+
+button {
+  background: #3f0632 ; 
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 120%;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #dcd1b4; 
+}
+
+.body-contact {
+  margin: 0;
+  background: linear-gradient(to right, #dcd1b4,#3f0632 ); 
+  color: white;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
 /*# sourceMappingURL=estilos.css.map */
