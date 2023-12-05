@@ -255,6 +255,7 @@ h2 span {
 }
 @media only screen and (max-width: 950px) and (min-width: 643px) {
   .item2 p {
+    font-family: "Courier New", Courier, monospace;
     font-size: 20px;
     margin-top: 60px;
   }
@@ -418,6 +419,7 @@ h2 span {
 }
 
 .card-body {
+  font-family: "Courier New", Courier, monospace;
   font-size: 20px;
   text-align: center;
 }
@@ -429,9 +431,9 @@ h2 span {
 
 .descripcion-studies {
   font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
   text-align: center;
   margin-top: 20px;
-  font-size: 20px;
 }
 
 #boton-studies {
@@ -455,11 +457,11 @@ h2 span {
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 h2 {
-  color:#3f0632;
+  color: #3f0632;
   text-align: center;
   font-size: 320%;
 }
@@ -468,9 +470,8 @@ label {
   display: block;
   margin-top: 16px;
   margin-bottom: 8px;
-  color:#3f0632; 
+  color: #3f0632;
   font-size: 120%;
-
 }
 
 input,
@@ -480,12 +481,12 @@ textarea {
   margin-bottom: 16px;
   box-sizing: border-box;
   border: none;
-  border-bottom: 1px solid #333; 
+  border-bottom: 1px solid #333;
   outline: none;
 }
 
 button {
-  background: #3f0632 ; 
+  background: #3f0632;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -495,16 +496,19 @@ button {
 }
 
 button:hover {
-  background: #dcd1b4; 
+  background: #dcd1b4;
 }
 
 .body-contact {
   margin: 0;
-  background: linear-gradient(to right, #dcd1b4,#3f0632 ); 
+  background: linear-gradient(to right, #dcd1b4, #3f0632);
   color: white;
   font-family: Arial, sans-serif;
   height: 100vh;
   align-items: center;
   justify-content: center;
 }
+
+
+
 /*# sourceMappingURL=estilos.css.map */

@@ -281,7 +281,7 @@ h2 span {
 
 @media only screen and (max-width: 950px) and (min-width: 643px) {
    .item2 p{
-    @include fuente-descripcion()
+    @include fuente-descripcion();
     margin-top: 60px;
    }
 
