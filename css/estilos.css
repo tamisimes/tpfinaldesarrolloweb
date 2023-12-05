@@ -510,5 +510,13 @@ button:hover {
 }
 
 
+#mensajeModificandoElDom {
+  align-items: center;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 28px;
+  background-color: #3f0632;
+  padding: 28px;
+}
 
 /*# sourceMappingURL=estilos.css.map */
