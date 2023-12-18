@@ -39,3 +39,18 @@ function MensajeAlerta(container, message, type) {
         container.innerHTML = ''
     }, 4500)
 }
+
+const $form = document.querySelector ('#completarElFormulario')
+$form.addEventListener ('submit', juntarInfo)
+async function juntarInfo (event) {
+    event.preventDefault ()
+    const form = new FormData (this)
+    const respuesta= await fetch (this.action , { 
+        method: this.method,
+        body: form, 
+        headers:{
+            'Accept': 'application/json'
+        }
+    })
+
+}
