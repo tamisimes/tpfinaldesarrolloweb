@@ -21,7 +21,7 @@ completarElFormulario.addEventListener('submit', (e) => {
 
     localStorage.setItem('usuario', JSON.stringify(usuario))
 
-    MensajeAlerta(alertaModificandoElDom, 'Thank you for contacting me!')
+    MensajeAlerta(alertaModificandoElDom, 'Hi ' + name + ', Thank you for contacting me!')
 });
 
 function MensajeAlerta(container, message, type) {
@@ -51,6 +51,11 @@ async function juntarInfo (event) {
         headers:{
             'Accept': 'application/json'
         }
+        
     })
 
+
 }
+
+
+
